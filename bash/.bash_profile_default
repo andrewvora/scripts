@@ -1,0 +1,7 @@
+# Copy and paste into .bash_profile
+
+# PS1 — CLI prefix — White fg text with no bg
+PS1='\[\e[97m\][\t] \u@\w\$\[\e[0m\] '
+
+# Export brew to current shell
+eval "$(/opt/homebrew/bin/brew shellenv)"
